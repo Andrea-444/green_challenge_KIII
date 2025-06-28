@@ -41,13 +41,13 @@ jobs:
       # Trigger Render backend redeploy
       - name: Trigger Render backend redeploy
         run: |
-          curl -X POST https://api.render.com/deploy/srv-d1fsvqnfte5s73fudptg \
+          curl -X POST https://api.render.com/deploy/srv-d1fsvqnfte5s73fudptg?key=z9MRDQu6Y9o \
           -H 'Authorization: Bearer ${{ secrets.RENDER_API_KEY }}' \
           -H 'Accept: application/json'
 
       # Trigger Render frontend redeploy
       - name: Trigger Render frontend redeploy
         run: |
-          curl -X POST https://api.render.com/deploy/srv-d1ftr42li9vc739vv02g \
+          curl -X POST https://api.render.com/deploy/srv-d1ftr42li9vc739vv02g?key=FVwPcpnmj0I \
           -H 'Authorization: Bearer ${{ secrets.RENDER_API_KEY }}' \
           -H 'Accept: application/json'
