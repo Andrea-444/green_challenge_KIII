@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-242.20224.300">
+    <data-source name="green_db@mongo" uuid="bfd8e6ee-af19-4703-9af6-7719a9c7ab17">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MONGO" />
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
