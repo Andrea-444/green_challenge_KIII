@@ -9,7 +9,7 @@ const Profile = () => {
     const userId = localStorage.getItem('userId');
     if (!userId) return;
 
-    const userResponse = await fetch(`http://localhost:8080/users/${userId}`, { credentials: 'include' });
+    const userResponse = await fetch(`${process.env.REACT_APP_API_URL}/users/${userId}`, { credentials: 'include' });
     if (!userResponse.ok) {
       console.error('Unauthorized or user not found');
       return;
@@ -18,7 +18,7 @@ const Profile = () => {
     const userData = await userResponse.json();
     setUser(userData);
 
-    const actionsResponse = await fetch(`http://localhost:8080/actions/${userId}`, { credentials: 'include' });
+    const actionsResponse = await fetch(`${process.env.REACT_APP_API_URL}/actions/${userId}`, { credentials: 'include' });
     if (!actionsResponse.ok) {
       console.error('Unauthorized or failed to fetch actions');
       return;

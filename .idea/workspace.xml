@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1daf7f4-7b23-4bdc-b45e-ea191f6fa03f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/mk/ukim/finki/mk/greenchallenge/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/mk/ukim/finki/mk/greenchallenge/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/mk/ukim/finki/mk/greenchallenge/web/ActionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/mk/ukim/finki/mk/greenchallenge/web/ActionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/mk/ukim/finki/mk/greenchallenge/web/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/mk/ukim/finki/mk/greenchallenge/web/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/mk/ukim/finki/mk/greenchallenge/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/mk/ukim/finki/mk/greenchallenge/web/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.GreenChallengeApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
@@ -90,6 +92,7 @@
       <workItem from="1750714876740" duration="37000" />
       <workItem from="1751062099043" duration="2434000" />
       <workItem from="1751064561572" duration="692000" />
+      <workItem from="1751065264505" duration="5491000" />
     </task>
     <servers />
   </component>

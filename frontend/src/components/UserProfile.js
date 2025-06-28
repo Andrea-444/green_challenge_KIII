@@ -26,7 +26,7 @@ const UserProfile = ({ user, actions, refreshActions }) => {
   if (!user) return <div className="profile-card"><h2>Please register or login to view your profile.</h2></div>;
 
   const handleDelete = async (id) => {
-    const response = await fetch(`http://localhost:8080/actions/${id}`, {
+    const response = await fetch(`${process.env.REACT_APP_API_URL}/actions/${id}`, {
       method: 'DELETE',
       credentials: 'include',
     });
@@ -50,7 +50,7 @@ const UserProfile = ({ user, actions, refreshActions }) => {
       alert('Please select an action.');
       return;
     }
-    const response = await fetch(`http://localhost:8080/actions/${id}`, {
+    const response = await fetch(`${process.env.REACT_APP_API_URL}/actions/${id}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
       credentials: 'include',

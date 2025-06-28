@@ -7,7 +7,7 @@ const Leaderboard = () => {
   const [users, setUsers] = useState([]);
 
   const fetchLeaderboard = async () => {
-    const response = await fetch('http://localhost:8080/users/leaderboard', { credentials: 'include' });
+    const response = await fetch(`${process.env.REACT_APP_API_URL}/users/leaderboard`, { credentials: 'include' });
     if (response.ok) {
       const data = await response.json();
       setUsers(data);
