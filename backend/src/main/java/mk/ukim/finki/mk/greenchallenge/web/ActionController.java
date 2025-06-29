@@ -13,7 +13,7 @@ import java.util.Optional;
 
 // @CrossOrigin(origins = "http://localhost:3000", allowCredentials = "true")
 @RestController
-@RequestMapping("/actions")
+@RequestMapping("/api/actions")
 public class ActionController {
 
     private final ActionService actionService;
