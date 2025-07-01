@@ -41,7 +41,7 @@ kubectl port-forward -n green-challenge deployment/backend 8080:8080
 
 Visit `http://localhost:3000`.
 
-### Ingress (optional)
+### Ingress
 
 After applying `k8s/ingress.yaml` and setting up `/etc/hosts`:
 
